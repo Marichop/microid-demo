@@ -1,6 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import ReenrolamientoMicroID from "./ReenrolamientoMicroID";
+import App from "./App";
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<ReenrolamientoMicroID />);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
